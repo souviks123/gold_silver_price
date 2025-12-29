@@ -1,0 +1,60 @@
+.metal-item {
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+
+.metal-item:hover {
+  transform: translateY(-3px);
+  border-color: rgba(102, 126, 234, 0.3);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1);
+}
+
+.metal-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.metal-icon {
+  font-size: 2.5em;
+  flex-shrink: 0;
+}
+
+.metal-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.metal-price {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.currency {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 3px;
+}
+
+@media (max-width: 480px) {
+  .metal-item {
+    padding: 15px;
+  }
+
+  .metal-name {
+    font-size: 1em;
+  }
+
+  .metal-price {
+    font-size: 1.1em;
+  }
+}

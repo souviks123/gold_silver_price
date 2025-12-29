@@ -1,0 +1,14 @@
+.metal-grid {
+  display: grid;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.timestamp {
+  text-align: center;
+  color: #999;
+  font-size: 0.85em;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+}
