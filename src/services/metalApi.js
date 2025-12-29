@@ -22,7 +22,8 @@ export async function fetchMetalRates(currency = 'INR', unit = 'g') {
     }
 
     const result = await response.json();
-    console.log('Metal rates:', result);
+    console.log('Metal rates API response:', result);
+    console.log('Metals data:', result.metals);
     return result;
   } catch (error) {
     console.error('Error fetching metal rates:', error);
