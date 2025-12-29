@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gold_silver_price/static/css/main.86abe55b.css",
-    "main.js": "/gold_silver_price/static/js/main.72f18f10.js",
+    "main.js": "/gold_silver_price/static/js/main.241d845d.js",
     "index.html": "/gold_silver_price/index.html",
     "main.86abe55b.css.map": "/gold_silver_price/static/css/main.86abe55b.css.map",
-    "main.72f18f10.js.map": "/gold_silver_price/static/js/main.72f18f10.js.map"
+    "main.241d845d.js.map": "/gold_silver_price/static/js/main.241d845d.js.map"
   },
   "entrypoints": [
     "static/css/main.86abe55b.css",
-    "static/js/main.72f18f10.js"
+    "static/js/main.241d845d.js"
   ]
 }
