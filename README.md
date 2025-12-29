@@ -21,7 +21,7 @@ npm install
 2. Create a `.env` file in the root directory:
 ```
 REACT_APP_METAL_API_KEY=your_api_key_here
-REACT_APP_METAL_API_URL=https://api.metals.dev/
+REACT_APP_METAL_API_URL=https://api.metals.dev/v1/latest
 ```
 
 3. Start the development server:
